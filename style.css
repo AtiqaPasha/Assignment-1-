@@ -1,0 +1,72 @@
+body{
+    background-color: #000;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 26px;
+}
+nav h1{
+    font-size: 60px;
+    color:rgb(250, 10, 10,0.801) ;
+    border-bottom: 5px solid rgb(250, 10, 10,0.801);
+    border-radius: 40px;
+    font-family: 'Seaweed Script', cursive;
+    margin-left: 10px;
+    margin-top: 0;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-inline: 30px;
+    text-decoration: none;
+}
+.decoration{
+    text-decoration: none;
+    color: #fff;
+}
+
+ 
+.btn button{
+width: 100px;
+height: 36px;
+border: 3px solid rgb(250, 10, 10,0.801);
+background-color: #000;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+margin-top: 20px;
+margin-right: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 30px;
+}
+.main .head{
+    font-size: 50px;
+    margin-left: 40px;
+}
+.head button{
+    width: 180px;
+    height: 45px;
+    background-color: rgb(250, 10, 10,0.801);
+    color: #fff;
+    font-size: 25px;
+    border-radius: 6px;
+}
+.head button:hover{
+    background-color: #000;
+    border: 3px solid rgb(250, 10, 10,0.801);
+    cursor: pointer;
+}
+.img img{
+    margin-right: 30px;
+    width: 570px;
+}
